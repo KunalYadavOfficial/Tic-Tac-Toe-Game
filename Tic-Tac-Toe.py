@@ -32,7 +32,7 @@ def play_game():
               check_if_game_over()
 
               flip_player()
-       if winner=="X" or winner=="Y":
+       if winner=="X" or winner=="O":
               print(winner+" won.")
        elif winner == None:
               print("Tie")       
